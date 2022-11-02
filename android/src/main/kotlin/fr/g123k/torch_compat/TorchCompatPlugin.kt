@@ -104,6 +104,10 @@ class TorchCompatPlugin: FlutterPlugin, MethodCallHandler, ActivityAware {
 
   override fun onDetachedFromEngine(@NonNull binding: FlutterPlugin.FlutterPluginBinding) {
     channel.setMethodCallHandler(null)
-    torchImpl.dispose()
+    try {
+      torchImpl.dispose()
+    } catch (e: UninitializedPropertyAccessException) {
+      // ignore
+    }
   }
 }
