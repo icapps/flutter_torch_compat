@@ -18,7 +18,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.icapps.torch_compat
+        package: com.icapps.icapps_torch_compat
         pluginClass: TorchCompatPlugin
       ios:
         pluginClass: TorchCompatPlugin

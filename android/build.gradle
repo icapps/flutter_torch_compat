@@ -1,4 +1,4 @@
-group 'com.icapps.torch_compat'
+group 'com.icapps.icapps_torch_compat'
 version '1.0-SNAPSHOT'
 
 buildscript {
