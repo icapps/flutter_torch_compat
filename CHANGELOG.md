@@ -1,3 +1,9 @@
+## [2.0.0] - 26th October 2023  
+
+* *Breacking* Update to Dart 3
+* Fixed Android crash startup
+* Fixed Android crash background
+
 ## [1.0.2] - 23rd March 2020  
   
 * Fix: `asTorch` not working on iOS #4

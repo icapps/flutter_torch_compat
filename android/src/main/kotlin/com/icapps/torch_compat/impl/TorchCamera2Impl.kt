@@ -1,4 +1,4 @@
-package fr.g123k.torch_compat.impl
+package com.icapps.torch_compat.impl
 
 import android.content.Context
 import android.hardware.camera2.CameraCharacteristics

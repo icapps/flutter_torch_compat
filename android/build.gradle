@@ -1,4 +1,4 @@
-group 'fr.g123k.torch_compat'
+group 'com.icapps.torch_compat'
 version '1.0-SNAPSHOT'
 
 buildscript {

@@ -1,6 +1,6 @@
 @file:Suppress("DEPRECATION")
 
-package fr.g123k.torch_compat.impl
+package com.icapps.torch_compat.impl
 
 import android.content.Context
 import android.content.pm.PackageManager
