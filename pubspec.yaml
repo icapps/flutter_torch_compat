@@ -1,6 +1,6 @@
 name: icapps_torch_compat
 description: Plugin to turn on / off the torch (or flash of the camera) on all supported versions of Android (4.1+) and iOS
-version: 2.0.0
+version: 2.1.0
 homepage: https://github.com/icapps/flutter_torch_compat
 
 environment:

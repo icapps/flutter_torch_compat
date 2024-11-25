@@ -3,7 +3,7 @@
 # Run `pod lib lint torch_compat.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'torch_compat'
+  s.name             = 'icapps_torch_compat'
   s.version          = '0.0.1'
   s.summary          = 'Plugin to turn on&amp;#x2F;off the flash (supports Android 4.x)'
   s.description      = <<-DESC

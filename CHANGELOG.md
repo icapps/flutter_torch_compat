@@ -1,3 +1,7 @@
+## [2.1.0] - 25th November 2024
+
+* fix pod not working
+
 ## [2.0.0] - 26th October 2023  
 
 * *Breacking* Update to Dart 3
