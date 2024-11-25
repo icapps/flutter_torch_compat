@@ -1,3 +1,7 @@
+## [2.2.0] - 25th November 2024
+
+* fix compile error on ios
+
 ## [2.1.0] - 25th November 2024
 
 * fix pod not working
