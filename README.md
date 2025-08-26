@@ -1,6 +1,6 @@
 # Torch compat  
   
-[![Pub](https://img.shields.io/pub/v/torch_compat.svg)](https://pub.dartlang.org/packages/torch_compat)
+[![Pub](https://img.shields.io/pub/v/icapps_torch_compat.svg)](https://pub.dartlang.org/packages/icapps_torch_compat)
   
 A plugin to enable or disable the torch of a device that works both on Android (including Android 4.x) and ioS.  
 
@@ -25,13 +25,13 @@ This plugin by default only requests `android.permission.FLASHLIGHT`, but if you
 First import the library to your project in your `pubspec.yaml`:  
 
 ```yaml
-torch_compat: ^1.0.2
+icapps_torch_compat: ^2.0.0
 ```
 
 ### 2) Import the library in your Dart code
 
 ```dart
-import 'package:torch_compat/torch_compat.dart';
+import 'package:icapps_torch_compat/icapps_torch_compat.dart';
 ```  
 
 ### 3) Turn on or off the flash  

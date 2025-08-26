@@ -1,3 +1,21 @@
+## [2.2.1] - 26th August 2025
+
+* added android namespace
+
+## [2.2.0] - 25th November 2024
+
+* fix compile error on ios
+
+## [2.1.0] - 25th November 2024
+
+* fix pod not working
+
+## [2.0.0] - 26th October 2023  
+
+* *Breacking* Update to Dart 3
+* Fixed Android crash startup
+* Fixed Android crash background
+
 ## [1.0.2] - 23rd March 2020  
   
 * Fix: `asTorch` not working on iOS #4

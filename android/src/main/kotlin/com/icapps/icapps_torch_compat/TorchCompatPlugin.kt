@@ -1,4 +1,4 @@
-package fr.g123k.torch_compat
+package com.icapps.icapps_torch_compat
 
 import android.app.Activity
 import android.content.Context
@@ -12,9 +12,9 @@ import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.MethodChannel.Result
 
-import fr.g123k.torch_compat.impl.BaseTorch
-import fr.g123k.torch_compat.impl.TorchCamera2Impl
-import fr.g123k.torch_compat.impl.TorchCamera1Impl
+import com.icapps.icapps_torch_compat.impl.BaseTorch
+import com.icapps.icapps_torch_compat.impl.TorchCamera2Impl
+import com.icapps.icapps_torch_compat.impl.TorchCamera1Impl
 
 import io.flutter.embedding.engine.plugins.activity.ActivityAware
 import io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding
@@ -104,6 +104,10 @@ class TorchCompatPlugin: FlutterPlugin, MethodCallHandler, ActivityAware {
 
   override fun onDetachedFromEngine(@NonNull binding: FlutterPlugin.FlutterPluginBinding) {
     channel.setMethodCallHandler(null)
-    torchImpl.dispose()
+    try {
+      torchImpl.dispose()
+    } catch (e: UninitializedPropertyAccessException) {
+      // ignore
+    }
   }
 }

@@ -1,4 +1,4 @@
-package fr.g123k.torch_compat.impl
+package com.icapps.icapps_torch_compat.impl
 
 import android.content.Context
 import android.hardware.camera2.CameraCharacteristics
@@ -10,9 +10,9 @@ import androidx.annotation.RequiresApi
 class TorchCamera2Impl(context: Context) : BaseTorch() {
 
     private val cameraManager = context.getSystemService(Context.CAMERA_SERVICE) as CameraManager
-    private val cameraId = cameraManager.cameraIdList.first { cameraId ->
+    private val cameraId = cameraManager.cameraIdList.firstOrNull { cameraId ->
         cameraManager.getCameraCharacteristics(cameraId)[CameraCharacteristics.FLASH_INFO_AVAILABLE] != null
-    } ?: null
+    }
 
     override fun turnOn() {
         turn(on = true)

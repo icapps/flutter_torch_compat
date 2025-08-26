@@ -1,4 +1,4 @@
-package fr.g123k.torch_compat.impl
+package com.icapps.icapps_torch_compat.impl
 
 abstract class BaseTorch {
 

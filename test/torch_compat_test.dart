@@ -1,7 +1,3 @@
-import 'package:flutter/services.dart';
-import 'package:flutter_test/flutter_test.dart';
-import 'package:torch_compat/torch_compat.dart';
-
 void main() {
   // const MethodChannel channel = MethodChannel('torch_compat');
 
