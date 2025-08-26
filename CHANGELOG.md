@@ -1,3 +1,7 @@
+## [2.2.1] - 26th August 2025
+
+* added android namespace
+
 ## [2.2.0] - 25th November 2024
 
 * fix compile error on ios
